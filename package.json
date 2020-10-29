@@ -3,8 +3,23 @@
   "version": "0.0.1",
   "scripts": {
     "build": "echo build your app here",
-    "start": "echo start your app here",
+    "start": "node ./bin/www",
     "test": "cypress run"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "data-store": "^4.0.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "mongodb-memory-server": "^6.3.1",
+    "mongoose": "^5.9.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2",
+    "start-server-and-test": "^1.11.5",
+    "uuid-validate": "0.0.3"
   },
   "devDependencies": {
     "cypress": "^5.4.0"
