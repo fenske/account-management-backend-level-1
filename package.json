@@ -1,0 +1,12 @@
+{
+  "name": "account-management-backend-level-1",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "echo build your app here",
+    "start": "echo start your app here",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^5.4.0"
+  }
+}
